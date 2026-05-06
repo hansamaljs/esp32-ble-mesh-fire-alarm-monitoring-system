@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(idf.py --version)",
+      "Bash(cmd.exe /c \"where idf.py 2>&1\")",
+      "PowerShell(Get-Command idf.py -ErrorAction SilentlyContinue)",
+      "PowerShell($env:IDF_PATH)",
+      "PowerShell($env:IDF_TOOLS_PATH)",
+      "Read(//c/esp//**)",
+      "Read(//c/esp/**)",
+      "Bash(find /c -maxdepth 4 -name \"idf.py\")",
+      "Bash(find /d -maxdepth 4 -name \"idf.py\")",
+      "Bash('/c/Users/Chamod Bandara/esp/v5.4.3/esp-idf/tools/idf.py' build)"
+    ]
+  }
+}
